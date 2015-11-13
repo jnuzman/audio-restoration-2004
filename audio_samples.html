@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+       "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Audio Samples</title>
+  <meta name="generator" content="amaya 8.2, see http://www.w3.org/Amaya/" />
+</head>
+
+<body>
+<p>This page indexes the example audio samples referenced in the paper <a
+href="audio.pdf">"Audio Restoration"</a> by Joseph Nuzman. The audio files
+are provided as mono 16 bit 44.1 kHz standard WAV files.</p>
+
+<h1>Click Removal Examples</h1>
+
+<p></p>
+
+<table border="1">
+  <caption>Artificial noise</caption>
+  <tbody>
+    <tr>
+      <td>Click detection threhold=5, pulse spread=2</td>
+      <td><a href="clicksamps/iwclicks.wav">before</a></td>
+      <td><a href="clicksamps/iwproc-50-02.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Click detection threhold=3, pulse spread=4</td>
+      <td><a href="clicksamps/iwclicks.wav">before</a></td>
+      <td><a href="clicksamps/iwproc-30-04.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<table border="1">
+  <caption>Real noise</caption>
+  <tbody>
+    <tr>
+      <td>Two male vocalists</td>
+      <td><a href="source/tina.wav">before</a></td>
+      <td><a href="clicksamps/tina-proc-50-04.wav">after</a></td>
+    </tr>
+    <tr>
+      <td>Horns, drums, percussion</td>
+      <td><a href="source/hatari.wav">before</a></td>
+      <td><a href="clicksamps/hatari-proc-50-04.wav">after</a></td>
+    </tr>
+    <tr>
+      <td>Male vocalist, guitar, trombone</td>
+      <td><a href="source/brady.wav">before</a></td>
+      <td><a href="clicksamps/brady-proc-50-04.wav">after</a></td>
+    </tr>
+    <tr>
+      <td>Female vocalist, guitar</td>
+      <td><a href="source/cali.wav">before</a></td>
+      <td><a href="clicksamps/cali-proc-50-04.wav">after</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<h1>Hiss Reduction Examples</h1>
+
+<p></p>
+
+<table border="1">
+  <caption>Artificial noise</caption>
+  <tbody>
+    <tr>
+      <td>Ideal zero-phase filter</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwideal.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Wiener filter</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwwien.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Wiener filter (alpha=5, beta=0.1)</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwwien-50-10.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Ephraim and Malah filter</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwem.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Ephraim and Malah filter (Rmin=0.06)</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwem-06.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Ephraim and Malah filter (q=0.2)</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwemq.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+    <tr>
+      <td>Ephraim and Malah filter (q=0.2, Rmin=0.016)</td>
+      <td><a href="hisssamps/iwhiss.wav">before</a></td>
+      <td><a href="hisssamps/iwemq-016.wav">after</a></td>
+      <td><a href="source/iwoke.wav">pristine</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<table border="1">
+  <caption>Real noise</caption>
+  <tbody>
+    <tr>
+      <td>Female vocalist</td>
+      <td><a href="source/gma-letter.wav">before</a></td>
+      <td><a href="hisssamps/gma-letter-emq-016.wav">after</a></td>
+    </tr>
+    <tr>
+      <td>Female and male vocalists</td>
+      <td><a href="source/gma-utah.wav">before</a></td>
+      <td><a href="hisssamps/gma-utah-emq-016.wav">after</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+</body>
+</html>

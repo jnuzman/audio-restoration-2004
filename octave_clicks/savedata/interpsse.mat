@@ -1,0 +1,23 @@
+# Created by Octave 2.1.50, Sun Jan 18 17:11:54 2004 IST <jnuzman@jugo>
+# name: p
+# type: scalar
+31
+# name: q
+# type: scalar
+31
+# name: w
+# type: scalar
+1024
+# name: sse
+# type: matrix
+# rows: 9
+# columns: 1
+ 15.0939214392151
+ 2.52561517076823
+ 1.79377968285614
+ 1.75551672311987
+ 1.76834778513561
+ 1.77674213628605
+ 1.77954131009362
+ 1.78254005510143
+ 1.78286364965147
